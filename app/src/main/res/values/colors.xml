@@ -34,4 +34,5 @@
 
     <color name="app_color_description">@color/qmui_config_color_gray_5</color>
 
+    <color name="app_main_bg">@color/qmui_config_color_gray_8</color>
 </resources>
