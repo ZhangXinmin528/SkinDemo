@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.qmuiteam.qmui.skin.QMUISkinManager
 
 
 /**
@@ -42,6 +43,7 @@ abstract class BaseFragment() : Fragment() {
         initParamsAndValues()
 
         initViews(rootView)
+
     }
 
     abstract fun initParamsAndValues();

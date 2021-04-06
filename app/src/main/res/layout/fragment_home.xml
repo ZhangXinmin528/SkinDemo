@@ -9,18 +9,8 @@
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/white"
+        android:background="?attr/app_primary_color"
         app:title="按钮效果" />
-
-    <TextView
-        android:id="@+id/tv_textview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="1dp"
-        android:background="@color/white"
-        android:gravity="center"
-        android:padding="12dp"
-        android:text="TextView主题效果演示：" />
 
     <TextView
         android:id="@+id/tv_btn_usage1"
